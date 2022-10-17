@@ -1,0 +1,33 @@
+#dp1:hover{
+    font-size: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#piro:hover{
+    font-size: 25px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lead:hover{
+    font-size: 25px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#marketimage:hover{
+    width: 60%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 5s;
+}
+#ppp1:hover{
+    width: 60%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 5s;
+}
+#aa111:hover{
+    width: 60%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 5s;
+}
