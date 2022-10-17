@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Me</title>
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/digitalproduct.css">
+    <!-- <link rel="stylesheet" href="karoonportfolio.css"> -->
+</head>
+
+<body>
+    <nav>
+        <div class="division1">
+            <img src="/images/mango.jpg" alt="" id="image222">
+            <h1 id="coder"><i>CoDeR <abbr title="Karoon Dahal" id="app">KD</abbr> </i></h1>
+        </div>
+
+        <ul id="list">
+            <li><a href="/html/index.html">Home</a></li>
+            <li><a href="/html/about.html">About-Me</a>
+                <ul>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Element</a></li>
+                    <li><a href="#">Icons</a></li>
+                </ul>
+            </li>
+            <li><a href="/html/digitalmarketing.html">Digital Marketing</a>
+                <ul>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Element</a></li>
+                    <li><a href="#">Element</a></li>
+                    <li><a href="#">More<span class="fa fa-plus"></span></a>
+                        <ul>
+                            <li><a href="#">S1</a></li>
+                            <li><a href="#">S2</a></li>
+                            <li><a href="#">S3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            <li><a href="/html/digitalcurrency.html">Digital Currency</a></li>
+            <li><a href="/html/digitalproduct.html">Digital Products</a></li>
+            <li><a href="/html/contact.html">Contact</a>
+            </li>
+            <li><a href="/html/loginportfolio.html" class="login">Login</a></li>
+            <li><a href="/html/signup.html" class="signup">Sign Up</a></li>
+
+            </li>
+        </ul>
+    </nav>
+    <img src="/images/mango.jpg" alt="" id="image111">
+    <div class="all" style="float:left; margin-left: 5px;margin-top: 220px;">
+        <div class="container" style="float: right;">
+            <span class="text first-text" id="span1">I'm a</span>
+            <span class="text sec-text" id="span2">Karoon Dahal</span>
+        </div>
+        <script id="java">
+            const text = document.querySelector(".sec-text");
+
+
+            const textLoad = () => {
+                setTimeout(() => {
+                    text.textContent = "Karoon.";
+                }, 0);
+                setTimeout(() => {
+                    text.textContent = "Gamer.";
+                }, 4000);
+                setTimeout(() => {
+                    text.textContent = "Singer.";
+                }, 8000);
+            }
+            textLoad();
+            setInterval(textLoad, 12000);
+        </script>
+    </div>
+<div>
+    <pre>
+    <article id="art">
+        Hey,I'm Karoon Dahal.I am a webdeveloper.I am coding in
+        html,css,javascript.I also know react js. I use django
+        for my backend development.I love coding.I have completed 
+        my SEE Graduation from Pragya Higher Secondary Boarding 
+        School and I am currently studying at Rehdon College in 
+        Science stream.
+    </article>
+    </pre>
+</div>
+<p id="footer">© 2020–2055 Company, coderkd. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</body>
+
+</html>
